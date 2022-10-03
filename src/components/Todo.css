@@ -22,3 +22,13 @@
   color: white;
   border-radius: 5px;
 }
+.ok-logo {
+  width: 40px;
+  margin: 10px;
+  cursor: pointer;
+}
+.delete-logo {
+  width: 40px;
+  margin: 10px;
+  cursor: pointer;
+}

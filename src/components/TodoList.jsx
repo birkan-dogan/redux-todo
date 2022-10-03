@@ -4,7 +4,7 @@ import TodoItem from "./TodoItem";
 
 const TodoList = () => {
   const dispatch = useDispatch();
-  const todos = useSelector((state) => state.todoReducer);
+  const todos = useSelector((state) => state.todoList);
   return (
     <div>
       <div>
