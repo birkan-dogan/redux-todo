@@ -1,0 +1,11 @@
+.todo-input {
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.add-button {
+  padding: 10px;
+  font-size: 1rem;
+  background-color: green;
+  color: white;
+}
