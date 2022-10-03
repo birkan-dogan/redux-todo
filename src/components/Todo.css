@@ -9,3 +9,16 @@
   background-color: green;
   color: white;
 }
+.clear-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clear-button {
+  padding: 10px;
+  font-size: 1rem;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+}
