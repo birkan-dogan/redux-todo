@@ -7,7 +7,7 @@ import {
 
 const initialState = {
   todoList: [
-    { id: new Date().getTime(), text: "study redux", completed: false },
+    { id: new Date().getTime(), text: "study redux", completed: true },
   ],
 };
 
@@ -29,7 +29,7 @@ const todoReducer = (state = initialState, { type, payload }) => {
       );
       return { todoList: [...state.todoList] };
     case CLEAR_TODO:
-      return { ...state, ...payload };
+      return initialState;
     default:
       return state;
   }
