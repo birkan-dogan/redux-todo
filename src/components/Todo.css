@@ -32,3 +32,17 @@
   margin: 10px;
   cursor: pointer;
 }
+.todoText {
+  /* width: 75%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-list {
+  min-width: 400px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 10px;
+}
